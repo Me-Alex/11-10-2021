@@ -75,7 +75,7 @@ html, body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: gray;
+    background-color: orangered;
 }
 
 ::-webkit-scrollbar-track {
