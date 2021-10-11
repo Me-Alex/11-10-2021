@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     border: 0;
     overflow-x: hidden;
+    scroll-behavior:smooth;
 }
 
 .main {
@@ -23,6 +24,22 @@ html, body {
     align-items: center;
 }
 
+.center button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: transparent;
+}
+
+.center button:hover{
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: gray;
+    color:white;
+    transition:2s all;
+}
+
 .list {
     width: 1000px;
     display: flex;
@@ -30,17 +47,17 @@ html, body {
     align-items: center;
     gap: 7%;
 }
-.list-container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 60px;
     background-color: red;
     opacity: 0.5;
-
-
 }
+
 .list a {
     font-size: 20px;
     text-decoration: none;
