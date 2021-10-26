@@ -26,12 +26,17 @@
 // console.log(listReverse);
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-
+const header = document.querySelector(".header");
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
+    if (header.style.opacity == "1")
+        header.style.opacity = "0.8";
+    else
+        header.style.opacity = "1";
+
 }
 const navLink = document.querySelectorAll(".nav-link");
 
@@ -40,4 +45,6 @@ navLink.forEach(n => n.addEventListener("click", closeMenu));
 function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
+    header.style.opacity = "0.8";
+
 }
