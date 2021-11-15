@@ -70,7 +70,7 @@ a {
 }
 
 .news-box {
-    background-color: gray;
+    /* background-color: gray; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -80,6 +80,7 @@ a {
     text-align: justify;
     padding: 2%;
     border-radius: 3%;
+    border: 1px solid midnightblue;
     /* padding:0 10px 0 10px; */
 }
 
@@ -169,7 +170,8 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: justify;
-    padding: 3%;
+    padding:30px;
+
 }
 
 .content .text {
@@ -178,10 +180,13 @@ h1 {
     /* width: auto; */
     max-width: 1300px;
     text-align: justify;
-    justify-content: start;
+    justify-content: space-around;
     height: 100%;
-    box-shadow: 1px 0px 20px 1px;
-    border-radius: 3%;
+    /* box-shadow: 1px 0px 20px 1px; */
+    border-radius: 20px;
+    border: 1px solid midnightblue;
+    padding:30px;
+
 }
 
 .content .text img {
