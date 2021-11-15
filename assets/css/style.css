@@ -188,6 +188,9 @@ h1 {
     padding:30px;
 
 }
+.active{
+    color:red;
+}
 
 .content .text img {
     max-width: 100%;
