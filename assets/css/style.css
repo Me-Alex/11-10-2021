@@ -85,7 +85,7 @@ a {
 
 .news-box:hover {
     box-shadow: 1px 0px 10px 2px;
-    opacity:0.9;
+    opacity: 0.9;
 }
 
 .news-content {
@@ -181,7 +181,7 @@ h1 {
     justify-content: start;
     height: 100%;
     box-shadow: 1px 0px 20px 1px;
-    border-radius:3%;
+    border-radius: 3%;
 }
 
 .content .text img {
@@ -205,12 +205,13 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .center button {
     width: 200px;
     height: 50px;
-    border: 1px solid red;
+    border: 1px solid #ff2222;
     background-color: transparent;
 }
 
@@ -377,8 +378,7 @@ footer .row a {
     transition: margin .4s;
 }
 
-.face-secondary {
-}
+.face-secondary {}
 
 .face-primary {
     background-color: #e43;
@@ -387,4 +387,40 @@ footer .row a {
 
 .face-button:hover .face-primary {
     margin-top: -64px;
+}
+
+.pages {
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.pages-content article {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+
+.pages-header h1 {
+    padding: 30px 0;
+}
+
+.contacts a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+}
+
+.contacts a img {
+    width: 64px;
+    height: 64px;
 }
